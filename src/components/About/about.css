@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "MangaTemple";
+  src: url(src\istanbul-arena-italic-persona.regular.ttf) format("truetype");
+}
+
+#about {
+  width: 100%;
+  height: 100%;
+  bottom: 500px;
+  background-image: url(..\src\assets\blank.jpg);
+  background-size: cover;
+}
+
+#galleryTitle {
+  display: flex;
+  justify-content: center;
+  font-family: "MangaTemple";
+}
+
+#galleryImages {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#gallery {
+  display: flex;
+  justify-content: center;
+}

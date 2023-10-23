@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "MangaTemple";
+  src: url(..\src\font\mangat.ttf);
+}
+
+@font-face {
+  font-family: "nuku";
+  src: url(..\src\font\nuku1.ttf);
+}
