@@ -1,0 +1,25 @@
+#duoCamps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+#duoCampsImgs {
+  width: 200px;
+}
+#mountainView {
+  padding: none;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.landscapes {
+  border-radius: 25px;
+}
+
+.landscapes:hover {
+  border-radius: 25px;
+  transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+  transform: translateY(5px);
+}
