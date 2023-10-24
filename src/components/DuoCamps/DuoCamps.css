@@ -16,10 +16,30 @@
 
 .landscapes {
   border-radius: 25px;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
 }
 
+.landscapes img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .landscapes:hover {
   border-radius: 25px;
   transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
   transform: translateY(5px);
+}
+
+.landscapesPictures {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
 }
