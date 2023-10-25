@@ -8,10 +8,10 @@ import Stack from "@mui/material/Stack";
 export default function DuoCamps() {
   return (
     <div id="duoCamps">
-      <Card className="head-text">
-        <div>
-          <CardContent>
-            <div style={{ position: "relative" }}>
+      <Card className="head-text" style={{ padding: 0 }}>
+        <div style={{ padding: 0 }}>
+          <CardContent style={{ padding: 0, paddingBottom: 0 }}>
+            <div style={{ position: "relative", padding: 0, paddingBottom: 0 }}>
               <CardMedia component="img" image="src\assets\mountains1.jpg" />
               <div
                 style={{
@@ -31,10 +31,10 @@ export default function DuoCamps() {
         </div>
       </Card>
 
-      <Card className="head-text">
-        <div>
-          <CardContent>
-            <div style={{ position: "relative" }}>
+      <Card className="head-text" style={{ padding: 0 }}>
+        <div style={{ padding: 0 }}>
+          <CardContent style={{ padding: 0, paddingBottom: 0 }}>
+            <div style={{ position: "relative", padding: 0, paddingBottom: 0 }}>
               <CardMedia component="img" image="src\assets\lake1.jpg" />
               <div
                 style={{
