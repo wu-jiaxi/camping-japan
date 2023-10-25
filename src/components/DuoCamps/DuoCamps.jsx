@@ -3,15 +3,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
 
 export default function DuoCamps() {
   return (
     <div id="duoCamps">
-      <Card className="head-text" style={{ padding: 0 }}>
-        <div style={{ padding: 0 }}>
+      <Card className="head-text" style={{ borderRadius: "25px" }}>
+        <div>
           <CardContent style={{ padding: 0, paddingBottom: 0 }}>
-            <div style={{ position: "relative", padding: 0, paddingBottom: 0 }}>
+            <div style={{ position: "relative" }}>
               <CardMedia component="img" image="src\assets\mountains1.jpg" />
               <div
                 style={{
@@ -31,10 +30,17 @@ export default function DuoCamps() {
         </div>
       </Card>
 
-      <Card className="head-text" style={{ padding: 0 }}>
-        <div style={{ padding: 0 }}>
+      <Card className="head-text" style={{ borderRadius: "25px" }}>
+        <div>
           <CardContent style={{ padding: 0, paddingBottom: 0 }}>
-            <div style={{ position: "relative", padding: 0, paddingBottom: 0 }}>
+            <div
+              style={{
+                position: "relative",
+                padding: 0,
+                paddingBottom: 0,
+                borderRadius: "25px",
+              }}
+            >
               <CardMedia component="img" image="src\assets\lake1.jpg" />
               <div
                 style={{
