@@ -16,9 +16,10 @@
 
 .landscapes {
   border-radius: 25px;
-  z-index: -1;
-  position: relative;
-  display: inline-block;
+  z-index: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .landscapes img {
@@ -42,4 +43,24 @@
   padding: 10px 20px;
   font-size: 20px;
   text-align: center;
+}
+
+.head-Text {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-Image {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  z-index: 10;
 }
